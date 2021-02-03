@@ -3,7 +3,6 @@
 This is backend for Appliance-Control task
 
 ## Project running 
-<hr>
 
 Create .env and add variable HOST and PORT, then install packages
 ```
@@ -17,7 +16,6 @@ To run project
 
 
 ## Project Description
-<hr>
 Stack - Express, Typescript, node-persist
 
 All data storing in files in .node-presist folder. Package node-persist help to manage storing data in local Storage of the server.  There are two main models of this project - WahingMachines(Appliances) and Commands. Appliances have Active commands and this command have running time depends on duratation of Command.
