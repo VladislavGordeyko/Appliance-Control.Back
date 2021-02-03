@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "target": "es6",
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "outDir": "dist",
+    "declaration": true,
+    "baseUrl": ".",
+    "paths": {
+      // "app/*": ["src/*"],
+      // "api/*": ["src/api/*"],
+      // "database/*": ["src/database/*"],
+      // "definitions/*": ["src/definitions/*"],
+      // "utils/*": ["src/utils/*"],
+      "@/*": ["src/*"],
+      // "@database/*": ["./src/database/*"],
+      // "@api/*": ["./src/api/*"],
+      // "@utils/*": ["./src/utils/*"],
+      // "@definitions/*": ["./src/definitions/*"],
+    },
+    // "typeRoots": [
+		// "./src/definitions/",
+		// "./node_modules/@types"
+    // ],
+    "skipLibCheck": true
+  },
+  // "files": [ "./src/definitions/express.d.ts" ],
+  // "include": [
+	//   "./src/**/*"
+  // ],
+  "exclude": [
+    "node_modules",
+  ]
+}
