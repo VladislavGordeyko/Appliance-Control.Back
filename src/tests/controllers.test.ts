@@ -10,6 +10,7 @@ import WashingMachineController from '../api/resources/washingMachines/controlle
 import { mockWashingMachineData } from '../api/resources/washingMachines/mocks/mockData'
 import { mockCommandsData } from '../api/resources/commands/mocks/mockData'
 
+/** Mocking Repositories */
 const commandsServices = new CommandServices(mockCommandRepo)
 const commandsController = new CommandsController(commandsServices)
 const washingMachineServices = new WashingMachineServices(mockWashinMachineRepo)

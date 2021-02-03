@@ -13,4 +13,5 @@ const commandsController = new CommandsController(commandsServices)
 const washingMachineServices = new WashingMachineServices(persistWashingMachineReposiroty)
 const washingMachineController = new WashingMachineController(washingMachineServices, commandsServices)
 
+/** Run express server */
 createServer(washingMachineController, commandsController)
